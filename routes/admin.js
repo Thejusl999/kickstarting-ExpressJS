@@ -1,19 +1,12 @@
 const express=require('express');
 const router=express.Router();
 
-const path=require('path');
-const rootDir=require('../util/path');
+const productController=require('../controllers/products');
 
 // actual route we are reaching to is: /admin/add-product BUT=>GET request
-router.get("/add-product", (req, res, next) => {
-    // res.sendFile(path.join(__dirname,'../','views','add-product.html'));
-    res.sendFile(path.join(rootDir,'views','add-product.html'));
-});
+router.get("/add-product",productController.getAddProduct);
 
 // actual route we are reaching to is: /admin/add-product BUT=>POST request
-router.post("/add-product", (req, res, next) => {
-    console.log(req.body);
-    res.redirect("/shop");
-});
+router.post("/add-product",productController.postAddProduct);
 
 module.exports=router;
