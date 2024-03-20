@@ -1,1 +1,9 @@
-[{"id":"someid","title":"A Book","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"This is an awesome book!","price":"19"},{"title":"Another Product","imageUrl":"fqefgagrahah","description":"afasvav","price":"33","id":"0.0909435482206511"},{"title":"Hi","imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZlMZY1F2L96s7TqGJ99-Pbcaa3vRt2NHL7Q&s","description":"A new book","price":"200","id":"0.8259329971402376"}]
+[
+  {
+    "title": "Hi",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZlMZY1F2L96s7TqGJ99-Pbcaa3vRt2NHL7Q&s",
+    "description": "A new book",
+    "price": "200",
+    "id": "0.8259329971402376"
+  }
+]
